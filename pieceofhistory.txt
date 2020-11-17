@@ -1,0 +1,40 @@
+echo hello > pfile
+(wc -l < pfile)> nfile
+ls -lt
+less nfile
+rm {n,p}file
+ls -lt
+lspci
+lsusb
+tail -f/proc/interrupts
+tail -f /proc/interrupts
+tail -f /proc/ioports 
+shutdown -h now
+lspci
+lsusb
+sudo lspci
+lspci -s 00:14.0 -v
+lspci -s 00:14.0 -k
+lspci -s 01:00.0 -k
+lspci -s 01:00.0 -v
+lsusb
+lsusb | head -n 1
+lsusb -d 17e9:6000 -v
+lsusb -t
+lsusb -s 02:05
+lsusb -s 02:04
+lsusb -s 02:03
+lsusb -s 01:04
+lsusb -s 01:02
+lsusb -s 01:06
+lsusb -s 01:04
+lsmod
+lsmod | grep btusb
+lsmod | grep blue
+lspci
+lsusb
+sockstat
+netstat
+netstat -tulpn
+exit
+cheese
